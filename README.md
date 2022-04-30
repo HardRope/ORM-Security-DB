@@ -29,7 +29,7 @@ This script use old version of Django, you need to run virtual environment and s
 Console command to install and run virtual environment:
 
 ```
--python -m venv DIR_NAME    # creating new folder and put enviromnet files here
+python -m venv DIR_NAME    # creating new folder and put enviromnet files here
 
 C:\...\DIR_NAME\Scripts\Activate   # activate virtual environment
 ```
@@ -43,20 +43,7 @@ After that, your console will looks like (example DIR_NAME == env_folder):
 Install modules:
 
 ```
--pip install -r requirements.txt
-
--pip freeze
-
->>> asgiref==3.5.0
->>> Django==3.2.13
->>> environs==9.5.0
->>> marshmallow==3.15.0
->>> packaging==21.3
->>> psycopg2-binary==2.9.3
->>> pyparsing==3.0.8
->>> python-dotenv==0.20.0
->>> pytz==2022.1
->>> sqlparse==0.4.2
+pip install -r requirements.txt
 ```
 
 ## Run script
