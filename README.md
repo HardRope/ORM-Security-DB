@@ -11,11 +11,11 @@ Settings you need to add in file:
 ```
 SECRET_KEY='some secret key'
 
-HOST=DB host url
-PORT=DB port number
-NAME=DB name
-USER=login
-PASSWORD=password
+DB_HOST=DB host url
+DB_PORT=DB port number
+DB_NAME=DB name
+DB_USER=login
+DB_PASSWORD=password
 
 DEBUG=False         #or True to enable Debug settings
 
